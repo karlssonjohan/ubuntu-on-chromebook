@@ -5,9 +5,11 @@ Some stuff for my chromebook
 
 ## Set developer mode
 
-## Open shell in chrome
+## Open a shell in chrome browser
 Ctrl-Alt-T
+
 shell
+
 bash
 
 ## Install Ubuntu 13.10
