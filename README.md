@@ -1,16 +1,16 @@
 ubuntu-on-chromebook
 ====================
 
-Some stuff for my chromebook
+Some stuff for my Samsung chromebook
+
+## Restore ChromeOS system
 
 ## Set developer mode
 
 ## Open a shell in chrome browser
-Ctrl-Alt-T
+ctrl-alt-t
 
 shell
-
-bash
 
 ## Install Ubuntu 13.10
 
