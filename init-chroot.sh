@@ -7,3 +7,6 @@ fi
 if [ ! -f /proc/cpuinfo ]; then
 	mount -t proc proc /proc
 fi
+
+EDITOR=vi
+export EDITOR
