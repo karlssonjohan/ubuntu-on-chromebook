@@ -1,4 +1,4 @@
 ubuntu-on-chromebook
 ====================
 
-Some for my chromebook
+Some stuff for my chromebook
