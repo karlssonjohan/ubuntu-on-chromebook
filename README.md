@@ -10,7 +10,7 @@ Run the below command to destroy your system. Wait a few minutes and then try to
 
 ### Restore ChromeOS system
 
-See https://support.google.com/chromeos/answer/1080595?hl=en
+Create a ChromeOS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
 
 ### Set developer mode
 
