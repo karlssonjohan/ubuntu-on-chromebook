@@ -24,11 +24,19 @@ Download script
 
 <code>curl -L -O http://goo.gl/s9ryd</code>
 
+Partition disk
+
+<code>sudo bash s9ryd default lts</code>
+
+The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. Login again and download the script.
+
+<code>curl -L -O http://goo.gl/s9ryd</code>
+
 Change user name
 
 <code>cat s9ryd | sed 's/ user/ johan/' | sed 's/user:user/johan:johan/' > tmp; mv tmp s9ryd</code>
 
 Install
 
-<code> sudo bash s9ryd default lts</code>
+<code>sudo bash s9ryd default lts</code>
 
