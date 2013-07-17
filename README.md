@@ -11,6 +11,7 @@ Run the below command to destroy your system. Wait a few minutes and then try to
 Create a Chrome OS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
 
 ### Set developer mode
+TBW
 
 ### Open a shell in chrome browser
 ctrl-alt-t
@@ -28,7 +29,7 @@ Partition disk
 
 <code>sudo bash s9ryd default lts</code>
 
-The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. Login again and download the script.
+The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. Login again and download the script again (if it has been removed).
 
 <code>curl -L -O http://goo.gl/s9ryd</code>
 
