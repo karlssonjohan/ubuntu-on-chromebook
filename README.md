@@ -20,7 +20,7 @@ shell
 ### Install Ubuntu 12.04
 This will create a new partition on your internal disk and install ubuntu. 
 
-Download script:
+Download script
 <code>curl -L -O http://goo.gl/s9ryd</code>
 
 Change user name
@@ -28,3 +28,4 @@ Change user name
 
 Install
 <code> sudo bash s9ryd default lts</code>
+
