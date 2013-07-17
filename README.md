@@ -29,7 +29,7 @@ Partition disk
 
 <code>sudo bash s9ryd default lts</code>
 
-The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. Login again and download the script again (if it has been removed).
+The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. Login again and download the script againd (if it has been removed).
 
 <code>curl -L -O http://goo.gl/s9ryd</code>
 
