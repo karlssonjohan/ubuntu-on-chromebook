@@ -21,11 +21,14 @@ shell
 This will create a new partition on your internal disk and install ubuntu. 
 
 Download script
+
 <code>curl -L -O http://goo.gl/s9ryd</code>
 
 Change user name
+
 <code>cat s9ryd | sed 's/ user/ johan/' | sed 's/user:user/johan:johan/' > tmp; mv tmp s9ryd</code>
 
 Install
+
 <code> sudo bash s9ryd default lts</code>
 
