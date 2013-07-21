@@ -11,6 +11,8 @@ Run the below command to destroy your system. Wait a few minutes and then try to
 Create a Chrome OS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
 
 ### Set developer mode
+At the login screen, press:
+
 esc-refresh-power
 
 It will reboot and say someting like "Chrome OS is missing or damaged", press:
@@ -21,7 +23,7 @@ Then press
 
 Enter
 
-The system will reboot and prepare for Developer Mode. It will take a few minutes.
+The system will reboot and prepare for Developer Mode. It will take a few minutes. When it's done it will reboot again.
 
 ### Open a shell in chrome browser
 ctrl-alt-t
