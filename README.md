@@ -13,28 +13,30 @@ Create a Chrome OS image on a USB stick and insert it when you see the "Chrome O
 ### Set developer mode
 At the login screen, press:
 
-esc-refresh-power
+<code>esc-refresh-power</code>
 
 It will reboot and say someting like "Chrome OS is missing or damaged", press:
 
-ctrl-d
+<code>ctrl-d</code>
 
 Then press
 
-Enter
+<code>Enter</code>
 
 The system will reboot and prepare for Developer Mode. It will take a few minutes. When it's done it will reboot again.
 
 ### Open a shell in chrome browser
-ctrl-alt-t
+<code>ctrl-alt-t</code>
 
-shell
+<code>shell</code>
+
+Sometimes it's not possible to open more than one shell. A workaround is to press ctrl-alt-t and open as many shells as you want before typing shell.
 
 ### Paste into the shell
-ctrl-shift-v
+<code>ctrl-shift-v</code>
 
 ### Install Ubuntu 12.04
-This will create a new partition on your internal disk and install ubuntu. 
+This will create a new partition on your internal disk and install ubuntu.
 
 Download script
 
