@@ -2,6 +2,9 @@ Ubuntu on chromebook
 ====================
 Some stuff for my Samsung chromebook (SNOW PREMIER D-E 1700)
 
+### Create an archive of this repo
+git archive master | gzip > ubuntu-on-chromebook-master.tar.gz
+
 ### Destroy Chrome OS system
 Run the below command to destroy your system. Wait a few minutes and then try to run some command, the system will reboot. When it comes back up again it will complain about Chrome OS being missing or damaged.
 
@@ -11,7 +14,7 @@ Run the below command to destroy your system. Wait a few minutes and then try to
 Create a Chrome OS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
 
 ### Set developer mode
-At the login screen, press:
+Login and then press:
 
 <code>esc-refresh-power</code>
 
@@ -19,7 +22,7 @@ It will reboot and say someting like "Chrome OS is missing or damaged", press:
 
 <code>ctrl-d</code>
 
-Then press
+Then, when asked to do so, press
 
 <code>Enter</code>
 
@@ -56,11 +59,21 @@ Change user name (optional)
 
 <code>cat s9ryd | sed 's/ user/ johan/' | sed 's/user:user/johan:johan/' > tmp; mv tmp s9ryd</code>
 
+Change hostname (optional)
+<code>cat s9ryd | sed 's/chrubuntu/superhost/' > tmp; mv tmp s9ryd</code>
+
 Install
 
 <code>sudo bash s9ryd default lts</code>
 
 tmp:
 chroot
-apt-get install lightdm
+apt-get install vboot-kernel-utils
+apt-get install cgpt
+apt-get install linux-headers-chromebook
+apt-get install linux-image-chromebook
 apt-get install ubuntu-desktop
+apt-get install xserver-xorg-video-armsoc
+apt-get remove flash-kernel
+apt-get install linux-tools /maybe dont
+apt-get install gnome
