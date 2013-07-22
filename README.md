@@ -60,6 +60,7 @@ Change user name (optional)
 <code>cat s9ryd | sed 's/ user/ johan/' | sed 's/user:user/johan:johan/' > tmp; mv tmp s9ryd</code>
 
 Change hostname (optional)
+
 <code>cat s9ryd | sed 's/chrubuntu/superhost/' > tmp; mv tmp s9ryd</code>
 
 Install
@@ -75,5 +76,3 @@ apt-get install linux-image-chromebook
 apt-get install ubuntu-desktop
 apt-get install xserver-xorg-video-armsoc
 apt-get remove flash-kernel
-apt-get install linux-tools /maybe dont
-apt-get install gnome
