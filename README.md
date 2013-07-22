@@ -26,6 +26,8 @@ Then press
 The system will reboot and prepare for Developer Mode. It will take a few minutes. When it's done it will reboot again.
 
 ### Open a shell in chrome browser
+Only works in developer mode.
+
 <code>ctrl-alt-t</code>
 
 <code>shell</code>
