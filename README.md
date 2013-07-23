@@ -100,6 +100,3 @@ Run commands:
 <code>setupcon</code>
 
 Might require reboot.
-
-### Wireless from command line
-echo "manual" > /etc/init/network-manager.override
