@@ -3,7 +3,7 @@ Ubuntu on chromebook
 Some stuff for my Samsung chromebook (SNOW PREMIER D-E 1700)
 
 ### Create an archive of this repo
-git archive master | gzip > ubuntu-on-chromebook-master.tar.gz
+<code>git archive master | gzip > ubuntu-on-chromebook-master.tar.gz</code>
 
 ### Destroy Chrome OS system
 Run the below command to destroy your system. Wait a few minutes and then try to run some command, the system will reboot. When it comes back up again it will complain about Chrome OS being missing or damaged.
@@ -93,7 +93,8 @@ apt-get install linux-headers-chromebook
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
 
-Run commands
+Run commands:
+
 <code>dpkg-reconfigure keyboard-configuration</code>
 
 <code>setupcon</code>
