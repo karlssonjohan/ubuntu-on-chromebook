@@ -95,6 +95,7 @@ Update file /etc/default/keyboard
 
 Run commands
 <code>dpkg-reconfigure keyboard-configuration</code>
+
 <code>setupcon</code>
 
 Might require reboot.
