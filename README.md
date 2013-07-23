@@ -28,6 +28,8 @@ Then, when asked to do so, press
 
 The system will reboot and prepare for Developer Mode. It will take a few minutes. When it's done it will reboot again.
 
+Optionally you can press ctrl-d at the "OS verification is OFF" screen to make the boot a bit faster.
+
 ### Open a shell in chrome browser
 Only works in developer mode.
 
@@ -40,7 +42,7 @@ Sometimes it's not possible to open more than one shell. A workaround is to pres
 ### Paste into the shell
 <code>ctrl-shift-v</code>
 
-### Install Ubuntu 12.04
+### Install Ubuntu 13.04
 This will create a new partition on your internal disk and install ubuntu.
 
 Download script
@@ -49,7 +51,7 @@ Download script
 
 Partition disk
 
-<code>sudo bash s9ryd default lts</code>
+<code>sudo bash s9ryd default latest</code>
 
 The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. Login again and download the script again (if it was removed).
 
@@ -65,14 +67,37 @@ Change hostname (optional)
 
 Install
 
-<code>sudo bash s9ryd default lts</code>
+<code>sudo bash s9ryd default latest</code>
 
 tmp:
 chroot
-apt-get install vboot-kernel-utils
-apt-get install cgpt
-apt-get install linux-headers-chromebook
-apt-get install linux-image-chromebook
 apt-get install ubuntu-desktop
 apt-get install xserver-xorg-video-armsoc
-apt-get remove flash-kernel
+apt-get install gnome
+apt-get install vboot-utils
+apt-get install cgpt
+apt-get install linux-tools
+apt-get intsall u-boot-tools
+
+maybe replace these with apt-get install vboot-kernel-utils??
+sudo cp /usr/bin/vbutil_* /media/ubuntu/usr/bin/
+sudo cp /usr/bin/dump_kernel_config /media/ubuntu/usr/bin
+sudo cp -R /usr/share/vboot /media/ubuntu/usr/share/vboot/
+sudo cp -R /usr/bin/old_bins /media/ubuntu/usr/bin
+
+cmd:
+chmod a+w /tmp
+
+apt-get install linux-headers-chromebook
+
+### Fix Ubuntu console keyboard layout
+Update file /etc/default/keyboard
+
+Run commands
+<code>dpkg-reconfigure keyboard-configuration</code>
+<code>setupcon</code>
+
+Might require reboot.
+
+### Wireless from command line
+echo "manual" > /etc/init/network-manager.override
