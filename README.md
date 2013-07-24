@@ -51,7 +51,9 @@ Partition disk
 
 <code>sudo bash s9ryd default latest</code>
 
-The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. Login again and download the script again (if it was removed). You can run the next part as many times as needed.
+The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. 
+
+You can run the next part as many times as needed. Login again and download the script again (if it was removed).
 
 <code>curl -L -O http://goo.gl/s9ryd</code>
 
