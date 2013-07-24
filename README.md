@@ -26,9 +26,7 @@ Then, when asked to do so, press
 
 <code>Enter</code>
 
-The system will reboot and prepare for Developer Mode. It will take a few minutes. When it's done it will reboot again.
-
-Optionally you can press ctrl-d at the "OS verification is OFF" screen to make the boot a bit faster.
+The system will reboot and prepare for Developer Mode. It will take a few minutes. When it's done it will reboot again. Optionally you can press ctrl-d at the "OS verification is OFF" screen to make the boot a bit faster.
 
 ### Open a shell in chrome browser
 Only works in developer mode.
@@ -64,19 +62,26 @@ Change user name (optional)
 Change hostname (optional)
 
 <code>cat s9ryd | sed 's/chrubuntu/superhost/' > tmp; mv tmp s9ryd</code>
+<code>sed -i 's/chrubuntu/superhost/g' s9ryd</code>
 
 Install
 
 <code>sudo bash s9ryd default latest</code>
 
-tmp:
-chroot
 apt-get install ubuntu-desktop
-apt-get install xserver-xorg-video-armsoc
+
 apt-get install gnome
+
+apt-get install xserver-xorg-video-armsoc
+
 apt-get install vboot-utils
+
+apt-get install vboot-kernel-utils
+
 apt-get install cgpt
+
 apt-get install linux-tools
+
 apt-get intsall u-boot-tools
 
 maybe replace these with apt-get install vboot-kernel-utils??
@@ -85,10 +90,8 @@ sudo cp /usr/bin/dump_kernel_config /media/ubuntu/usr/bin
 sudo cp -R /usr/share/vboot /media/ubuntu/usr/share/vboot/
 sudo cp -R /usr/bin/old_bins /media/ubuntu/usr/bin
 
-cmd:
-chmod a+w /tmp
 
-apt-get install linux-headers-chromebook
+Needed? apt-get install linux-headers-chromebook
 
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
