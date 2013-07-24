@@ -63,12 +63,11 @@ Change user name (optional)
 
 Change hostname (optional)
 
-<code>cat s9ryd | sed 's/chrubuntu/superhost/' > tmp; mv tmp s9ryd</code>
 <code>sed -i 's/chrubuntu/superhost/g' s9ryd</code>
 
 Install
 
-<code>sudo bash s9ryd default latest</code>
+<code>sudo bash s9ryd ubuntu-standard latest</code>
 
 apt-get install ubuntu-desktop
 
