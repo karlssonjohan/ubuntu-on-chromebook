@@ -69,25 +69,6 @@ Install
 
 <code>sudo bash s9ryd ubuntu-standard latest</code>
 
-
-
-
-
-
-
-
-
-
-
-maybe replace these with apt-get install vboot-kernel-utils??
-sudo cp /usr/bin/vbutil_* /media/ubuntu/usr/bin/
-sudo cp /usr/bin/dump_kernel_config /media/ubuntu/usr/bin
-sudo cp -R /usr/share/vboot /media/ubuntu/usr/share/vboot/
-sudo cp -R /usr/bin/old_bins /media/ubuntu/usr/bin
-
-
-Needed? apt-get install linux-headers-chromebook
-
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
 
