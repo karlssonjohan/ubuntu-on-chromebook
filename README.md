@@ -69,21 +69,16 @@ Install
 
 <code>sudo bash s9ryd ubuntu-standard latest</code>
 
+
+
+
+
+
+
+
 apt-get install ubuntu-desktop
 
-apt-get install gnome
 
-apt-get install xserver-xorg-video-armsoc
-
-apt-get install vboot-utils
-
-apt-get install vboot-kernel-utils
-
-apt-get install cgpt
-
-apt-get install linux-tools
-
-apt-get intsall u-boot-tools
 
 maybe replace these with apt-get install vboot-kernel-utils??
 sudo cp /usr/bin/vbutil_* /media/ubuntu/usr/bin/
