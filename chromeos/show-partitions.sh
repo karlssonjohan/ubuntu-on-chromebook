@@ -1,3 +1,5 @@
 #!/bin/bash
 
-cgpt show /dev/mmcblk0
+source /etc/uoc-config
+
+cgpt show $DISK

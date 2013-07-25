@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source config
+source /etc/uoc-config
 
 chroot $MP
