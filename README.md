@@ -76,7 +76,6 @@ Install
 
 
 
-apt-get install ubuntu-desktop
 
 
 
