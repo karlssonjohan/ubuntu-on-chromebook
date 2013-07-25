@@ -2,11 +2,6 @@
 
 # Based on https://gist.github.com/vvuk/4986933
 
-DISK=/dev/mmcblk0
-KERN=/dev/mmcblk0p6
-ROOTFS=/dev/mmcblk0p7
-KERNEL_VERSION=3.4.0.5
-
 source /etc/uoc-config
 
 if [ `grep -i id=ubuntu /etc/os-release` ]; then

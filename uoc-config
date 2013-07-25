@@ -1,5 +1,4 @@
-MP=/media/ubuntu
+MP=/tmp/urfs
 DISK=/dev/mmcblk0
 KERN=/dev/mmcblk0p6
 ROOTFS=/dev/mmcblk0p7
-KERNEL_VERSION=3.4.0.5
