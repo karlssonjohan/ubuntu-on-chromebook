@@ -65,6 +65,10 @@ Change hostname (optional)
 
 <code>sed -i 's/chrubuntu/superhost/g' s9ryd</code>
 
+Disable reboot
+
+<code>sed -i 's/^reboot/echo \"Run post-install.sh\"/g' s9ryd</code>
+
 Install
 
 <code>sudo bash s9ryd ubuntu-standard latest</code>
