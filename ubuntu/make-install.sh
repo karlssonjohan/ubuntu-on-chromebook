@@ -7,4 +7,4 @@ if [ ! -d $bin_dir ]; then
 	mkdir $bin_dir
 fi
 
-cp -f * $bin_dir
+cp -f *sh $bin_dir
