@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Chrome OS stuff
 source uoc-config
@@ -13,5 +13,5 @@ if [ -d $MP/etc ]; then
 	cd ubuntu
 	./make-install.sh $MP
 else
-	echo "Ubuntu partition not mounted."
+	echo "WARNING: Ubuntu partition not mounted."
 fi
