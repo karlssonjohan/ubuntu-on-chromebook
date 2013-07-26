@@ -2,7 +2,7 @@
 
 # Chrome OS stuff
 source uoc-config
-cp uoc-config /etc
+cp uoc-config /usr/local/etc
 cd chromeos
 ./make-install.sh
 

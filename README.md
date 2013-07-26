@@ -73,7 +73,7 @@ Install
 
 <code>sudo bash s9ryd ubuntu-standard latest</code>
 
-Post install, this will intsall ubuntu desktop and some other stuff to make it work.
+Post install, this will install ubuntu desktop and some other stuff to make it work.
 
 <code>wget https://github.com/karlssonjohan/ubuntu-on-chromebook/raw/master/ubuntu-on-chromebook-master.tar.gz</code>
 

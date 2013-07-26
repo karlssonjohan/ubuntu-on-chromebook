@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /etc/uoc-config
+source /usr/local/etc/uoc-config
 
 if [ ! -d $MP ]; then
 	mkdir $MP
