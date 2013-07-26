@@ -3,7 +3,7 @@
 BIN_DIR=/usr/local/bin
 DIRS="$BIN_DIR"
 
-for dir in DIRS 
+for dir in $DIRS 
 do
 	if [ ! -d $dir ]; then
 		mkdir $dir
