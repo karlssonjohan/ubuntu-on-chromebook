@@ -1,8 +1,13 @@
 #!/bin/bash
 
-# Chrome OS stuff
 source uoc-config
+
+# Chrome OS stuff
+if [ ! -d /usr/local/etc ]; then
+	mkdir /usr/local/etc
+fi
 cp uoc-config /usr/local/etc
+
 cd chromeos
 ./make-install.sh
 
