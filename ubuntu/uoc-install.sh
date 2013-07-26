@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Based on https://gist.github.com/vvuk/4986933
 

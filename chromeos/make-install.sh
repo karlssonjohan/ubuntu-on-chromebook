@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 BIN_DIR=/usr/local/bin
 DIRS="$BIN_DIR"

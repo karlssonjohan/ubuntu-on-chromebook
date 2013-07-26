@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 source /usr/local/etc/uoc-config
 
