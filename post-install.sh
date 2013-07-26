@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /etc/uoc-config
+source /usr/local/etc/uoc-config
 
 mkdir $MP/etc/X11/xorg.conf.d
 cp ubuntu/x.conf $MP/etc/X11/xorg.conf.d
