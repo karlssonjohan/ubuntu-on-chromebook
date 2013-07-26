@@ -9,7 +9,7 @@ fi
 cp uoc-config /usr/local/etc
 
 cd chromeos
-./make-install.sh
+sudo bash ./make-install.sh
 
 # Ubuntu stuff
 cd ..
