@@ -87,7 +87,7 @@ Make install
 <code>sudo bash make-install.sh</code>
 
 
-Post install
+Post install, this will take quite a while. About half way through you will need to manually select gdm or lightdm as display manager.
 
 <code>sudo bash post-install.sh</code>
 

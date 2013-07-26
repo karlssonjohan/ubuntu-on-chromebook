@@ -1,12 +1,12 @@
-#!/bin/sh
+#!/bin/bash
 
 # Based on https://gist.github.com/vvuk/4986933
 
-source /etc/uoc-config
-
-if [ `grep -i id=ubuntu /etc/os-release` ]; then
+if [ -f /etc/os-release ]; then
+	source /etc/uoc-config
 	mp=""
 else
+	source /usr/local/etc/uoc-config
 	mp=$MP
 fi
 
