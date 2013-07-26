@@ -91,6 +91,17 @@ Post install, this will take quite a while. About half way through you will need
 
 <code>sudo bash post-install.sh</code>
 
+When done, reboot to start Ubuntu
+
+<code>sudo reboot</code>
+
+At the login screen select Gnome as desktop.
+
+At next reboot Chrome OS will start. If you want to switch back to Ubuntu, run:
+
+<code>sudo switch-to-ubuntu.sh</code>
+
+And then reboot.
 
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
