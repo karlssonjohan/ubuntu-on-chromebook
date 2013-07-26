@@ -73,6 +73,25 @@ Install
 
 <code>sudo bash s9ryd ubuntu-standard latest</code>
 
+Post install, this will intsall ubuntu desktop and some other stuff to make it work.
+
+<code>wget https://github.com/karlssonjohan/ubuntu-on-chromebook/raw/master/ubuntu-on-chromebook-master.tar.gz</code>
+
+Untar
+
+<code>tar xvf ubuntu-on-chromebook-master.tar.gz</code>
+
+
+Make install
+
+<code>sudo bash make-install.sh</code>
+
+
+Post install
+
+<code>sudo bash post-install.sh</code>
+
+
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
 
