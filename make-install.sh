@@ -16,7 +16,7 @@ cd ..
 if [ -d $MP/etc ]; then
 	cp uoc-config $MP/etc
 	cd ubuntu
-	./make-install.sh $MP
+	sudo bash ./make-install.sh $MP
 else
 	echo "WARNING: Ubuntu partition not mounted."
 fi
