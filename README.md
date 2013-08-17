@@ -103,6 +103,8 @@ At next reboot Chrome OS will start. If you want to switch back to Ubuntu, run:
 
 And then reboot.
 
+### Ubuntu tweaks
+
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
 
