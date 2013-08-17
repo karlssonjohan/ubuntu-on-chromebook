@@ -113,3 +113,18 @@ Run commands:
 <code>setupcon</code>
 
 Might require reboot.
+
+### References
+http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook
+
+http://www.chromium.org/chromium-os/poking-around-your-chrome-os-device
+
+http://superuser.com/questions/433605/how-do-i-paste-into-the-crosh-terminal-in-a-chromebook
+
+http://chromeos-cr48.blogspot.se/
+
+https://gist.github.com/vvuk/4986933
+
+https://www.anavi.org/article/150/
+
+
