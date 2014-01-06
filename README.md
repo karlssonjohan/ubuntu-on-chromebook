@@ -6,7 +6,7 @@ Some stuff for my Samsung chromebook (SNOW PREMIER D-E 1700)
 <code>git archive master | gzip > ubuntu-on-chromebook.tar.gz</code>
 
 ### Destroy Chrome OS system
-Run the below command to destroy your system. Wait a few minutes and then try to run some command, the system will reboot. When it comes back up again it will complain about Chrome OS being missing or damaged.
+Run the below command to destroy your system. Wait a few minutes and then try to run some command (or reboot), the system will reboot. When it comes back up again it will complain about Chrome OS being missing or damaged.
 
 <code>sudo dd if=/dev/zero of=/dev/mmcblk0</code>
 
