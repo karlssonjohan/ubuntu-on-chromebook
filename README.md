@@ -3,12 +3,14 @@ Ubuntu on chromebook
 Some stuff for my Samsung chromebook (SNOW PREMIER D-E 1700)
 
 ### Create an archive of this repo
-<code>git archive master | gzip > ubuntu-on-chromebook-master.tar.gz</code>
+<code>git archive master | gzip > ubuntu-on-chromebook.tar.gz</code>
 
 ### Destroy Chrome OS system
 Run the below command to destroy your system. Wait a few minutes and then try to run some command, the system will reboot. When it comes back up again it will complain about Chrome OS being missing or damaged.
 
 <code>sudo dd if=/dev/zero of=/dev/mmcblk0</code>
+
+If you destroy your system from within Ubuntu you will still see the "OS verification is OFF" screen. You need to enable "OS verification" again to get the "Chrome OS is missing or damaged" screen.
 
 ### Restore Chrome OS system
 Create a Chrome OS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
@@ -75,11 +77,11 @@ Install
 
 Post install, this will install ubuntu desktop and some other stuff to make the desktop work.
 
-<code>wget https://github.com/karlssonjohan/ubuntu-on-chromebook/raw/master/ubuntu-on-chromebook-master.tar.gz</code>
+<code>wget https://github.com/karlssonjohan/ubuntu-on-chromebook/raw/master/ubuntu-on-chromebook.tar.gz</code>
 
 Untar
 
-<code>tar xvf ubuntu-on-chromebook-master.tar.gz</code>
+<code>tar xvf ubuntu-on-chromebook.tar.gz</code>
 
 
 Make install
