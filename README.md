@@ -10,7 +10,7 @@ Run the below command to destroy your system. Wait a few minutes and then try to
 
 <code>sudo dd if=/dev/zero of=/dev/mmcblk0</code>
 
-If you destroy your system from within Ubuntu you will still see the "OS verification is OFF" screen. You need to enable "OS verification" again to get the "Chrome OS is missing or damaged" screen.
+If you destroy your system from within Ubuntu you will still see the "OS verification is OFF" screen after reboot. You need to enable "OS verification" again to get the "Chrome OS is missing or damaged" screen.
 
 ### Restore Chrome OS system
 Create a Chrome OS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
@@ -45,15 +45,17 @@ Sometimes it's not possible to open more than one shell. A workaround is to pres
 ### Install Ubuntu 13.04
 This will create a new partition on your internal disk and install ubuntu.
 
+#### Partition disk
+
 Download script
 
 <code>curl -L -O http://goo.gl/s9ryd</code>
 
-Partition disk
-
 <code>sudo bash s9ryd default latest</code>
 
 The system will reboot after you selected the partion size. When it starts again it will say "Your system is repairing itself". After a few minutes it will reboot again. 
+
+#### Install
 
 You can run the next part as many times as needed. Login again and download the script again (if it was removed).
 
@@ -75,7 +77,9 @@ Install
 
 <code>sudo bash s9ryd ubuntu-standard latest</code>
 
-Post install, this will install ubuntu desktop and some other stuff to make the desktop work.
+#### Post install
+
+This will install ubuntu desktop and some other stuff to make the desktop work.
 
 <code>wget https://github.com/karlssonjohan/ubuntu-on-chromebook/raw/master/ubuntu-on-chromebook.tar.gz</code>
 
@@ -83,11 +87,9 @@ Untar
 
 <code>tar xvf ubuntu-on-chromebook.tar.gz</code>
 
-
 Make install
 
 <code>sudo bash make-install.sh</code>
-
 
 Post install, this will take quite a while. About half way through you will need to manually select gdm or lightdm as display manager.
 
