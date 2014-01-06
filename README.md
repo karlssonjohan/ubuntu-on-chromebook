@@ -77,7 +77,9 @@ Install
 
 <code>sudo bash s9ryd ubuntu-standard latest</code>
 
-#### Post install
+If you don't need a desktop you can stop here.
+
+#### Desktop install
 
 This will install ubuntu desktop and some other stuff to make the desktop work.
 
@@ -94,6 +96,8 @@ Make install
 Post install, this will take quite a while. About half way through you will need to manually select lightdm as display manager.
 
 <code>sudo bash post-install.sh</code>
+
+#### Done installing
 
 When done, reboot to start Ubuntu
 
