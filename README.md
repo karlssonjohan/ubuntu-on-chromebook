@@ -10,7 +10,7 @@ Run the below command to destroy your system. Wait a few minutes and then try to
 
 <code>sudo dd if=/dev/zero of=/dev/mmcblk0</code>
 
-If you destroy your system from within Ubuntu you will still see the "OS verification is OFF" screen after reboot. You need to enable "OS verification" again to get the "Chrome OS is missing or damaged" screen.
+If you destroy your system from within Ubuntu you will see the "OS verification is OFF" screen after reboot. You need to enable "OS verification" again to get the "Chrome OS is missing or damaged" screen.
 
 ### Restore Chrome OS system
 Create a Chrome OS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
