@@ -83,7 +83,7 @@ If you don't need a desktop you can stop here.
 
 #### Desktop install
 
-This will install ubuntu desktop and some other stuff to make the desktop work.
+This will install ubuntu desktop, gnome and some other stuff to make the desktop work.
 
 <code>wget https://github.com/karlssonjohan/ubuntu-on-chromebook/raw/master/ubuntu-on-chromebook.tar.gz</code>
 
