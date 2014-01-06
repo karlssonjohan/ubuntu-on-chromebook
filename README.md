@@ -77,7 +77,7 @@ Disable reboot
 
 Install
 
-<code>sudo bash s9ryd ubuntu-standard latest</code>
+<code>sudo bash s9ryd ubuntu-standard 13.04</code>
 
 If you don't need a desktop you can stop here.
 
