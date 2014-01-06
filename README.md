@@ -1,5 +1,5 @@
-Ubuntu on chromebook
-====================
+Ubuntu 13.04 on chromebook
+==========================
 Some stuff for my Samsung chromebook (SNOW PREMIER D-E 1700)
 
 ### Create an archive of this repo
@@ -42,7 +42,7 @@ Sometimes it's not possible to open more than one shell. A workaround is to pres
 ### Paste into the shell
 <code>ctrl-shift-v</code>
 
-### Install Ubuntu 13.04
+### Install Ubuntu
 This will create a new partition on your internal disk and install ubuntu.
 
 #### Partition disk
