@@ -113,6 +113,31 @@ At next reboot Chrome OS will start. If you want to switch back to Ubuntu, run:
 
 And then reboot.
 
+### Upgrade to Ubuntu 13.10
+It does not seem to be possible to install 13.10 but you can upgrade from 13.04 to 13.10. However, it seems like it is only possible to upgrade from a freshly installed 13.04 by following the instructions above and then upgrade to 13.10. Also Gnome will not work; you will have to install Xfce. After installing 13.04 do this.
+
+#### Prepare for upgrade
+<code>apt-get update</code>
+
+<code>apt-get -y upgrade</code>
+
+<code>apt-get -y dist-upgrade</code>
+
+#### Updgrade
+Use the Software updater to perform the upgrade to 13.10.
+
+#### Install Xfce
+Gnome will not work so use Xfce instead.
+
+<code>add-apt-repository -y paa:xubuntu-dev/xfce-4.10</code>
+
+<code>apt-get update</code>
+
+<code>apt-get -y upgrade</code>
+
+<code>apt-get -y install xfce4</code>
+
+
 ### Ubuntu tweaks
 Some tweaks and fixes.
 
