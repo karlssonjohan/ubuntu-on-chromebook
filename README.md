@@ -120,13 +120,16 @@ Some tweaks and fixes.
 Gnash is the GNU Flash movie player. Sometimes it consumes a lot of CPU and it does not seem to work anyway, at least not with chrome.
 
 <code>sudo apt-get remove gnash gnash-common</code>
+
 <code>sudo apt-get autoremove</code>
 
 #### Enable sound
 Remove/re-install some packages
 
 <code>sudo apt-get remove --purge pulseaudio alsa-base</code>
+
 <code>sudo apt-get install alsa-base</code>
+
 <code>sudo apt-get autoremove</code>
 
 Add sound module
