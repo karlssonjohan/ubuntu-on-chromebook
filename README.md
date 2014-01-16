@@ -114,29 +114,29 @@ At next reboot Chrome OS will start. If you want to switch back to Ubuntu, run:
 And then reboot.
 
 ### Ubuntu tweaks
+Some tweaks and fixes.
+
 #### Remove Gnash
 Gnash is the GNU Flash movie player. Sometimes it consumes a lot of CPU and it does not seem to work anyway, at least not with chrome.
-<code>
-sudo apt-get remove gnash gnash-common
-sudo apt-get autoremove
-</code>
+
+<code>sudo apt-get remove gnash gnash-common</code>
+<code>sudo apt-get autoremove</code>
 
 #### Enable sound
 Remove/re-install some packages
-<code>
-sudo apt-get remove --purge pulseaudio alsa-base
-sudo apt-get install alsa-base
-sudo apt-get autoremove
-</code>
+
+<code>sudo apt-get remove --purge pulseaudio alsa-base</code>
+<code>sudo apt-get install alsa-base</code>
+<code>sudo apt-get autoremove</code>
+
 Add sound module
-<code>
-echo snd-soc-daisy-max98095 >>/etc/modules
-</code>
+
+<code>echo snd-soc-daisy-max98095 >>/etc/modules</code>
 
 Fix alsa settings. 
-<code>
-alsamixer
-</code>
+
+<code>alsamixer</code>
+
 Enable these using the "m" key.
  - Left speaker mixer left DAC1'
  - Right speaker mixer right DAC1'
