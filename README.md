@@ -179,6 +179,10 @@ To install a Samsung 64GB Class 10 U1 SDXC MB-SGCGB SDHC card.
 
 <code>sudo apt-get install exfat-fuse</code>
 
+Create a directory to mount it on.
+
+<code>sudo mkdir /misc</code>
+
 Then add the line below to /etc/fstab
 
 <code>/dev/mmcblk1p1	/misc	exfat	defaults	0	2</code>
