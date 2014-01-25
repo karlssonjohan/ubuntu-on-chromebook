@@ -169,6 +169,10 @@ Enable these using the "m" key.
  - Left speaker mixer left DAC1'
  - Right speaker mixer right DAC1'
 
+#### Enable HTML5 video on youtube in chrome
+Go to chrome store and install
+ - HTML5ify
+ - HTML5 video for YouTube
 
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
