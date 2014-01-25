@@ -187,6 +187,10 @@ Then add the line below to /etc/fstab
 
 <code>/dev/mmcblk1p1	/misc	exfat	defaults	0	2</code>
 
+#### Fonts and stuff
+
+<code>sudo apt-get install ubuntu-restricted-extras</code>
+
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
 
