@@ -174,6 +174,15 @@ Go to chrome store and install
  - HTML5ify
  - HTML5 video for YouTube
 
+#### Install SDHC card
+To install a Samsung 64GB Class 10 U1 SDXC MB-SGCGB SDHC card.
+
+<code>sudo apt-get install exfat-fuse</code>
+
+Then add the line below to /etc/fstab
+
+<code>/dev/mmcblk1p1	/misc	exfat	defaults	0	2</code>
+
 ### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
 
