@@ -183,6 +183,8 @@ Create a directory to mount it on.
 
 <code>sudo mkdir /misc</code>
 
+<code>sudo chmod 777 /misc</code>
+
 Then add the line below to /etc/fstab
 
 <code>/dev/mmcblk1p1	/misc	exfat	defaults	0	2</code>
