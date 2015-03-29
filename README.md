@@ -2,20 +2,20 @@ Ubuntu 13.04 on chromebook
 ==========================
 How to install Ubuntu on a Samsung chromebook (SNOW PREMIER D-E 1700)
 
-### Info about chromebook
+## Info about chromebook
 Some miscellaneous info about chromebook. You need to know this to be able to install Ubuntu or recover your chromebook.
 
-##### Destroy Chrome OS system
+#### Destroy Chrome OS system
 Run the below command to destroy your system. Wait a few minutes and then try to run some command (or reboot), the system will reboot. When it comes back up again it will complain about Chrome OS being missing or damaged.
 
 <code>sudo dd if=/dev/zero of=/dev/mmcblk0</code>
 
 If you destroy your system from within Ubuntu you will see the "OS verification is OFF" screen after reboot. You need to enable "OS verification" again to get the "Chrome OS is missing or damaged" screen.
 
-##### Restore Chrome OS system
+#### Restore Chrome OS system
 Create a Chrome OS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
 
-##### Set developer mode
+#### Set developer mode
 Login and then press:
 
 <code>esc-refresh-power</code>
@@ -30,7 +30,7 @@ Then, when asked to do so, press
 
 The system will reboot and prepare for Developer Mode. It will take a few minutes. When it's done it will reboot again. Optionally you can press ctrl-d at the "OS verification is OFF" screen to make the boot a bit faster.
 
-##### Open a shell in chrome browser
+#### Open a shell in chrome browser
 Only works in developer mode.
 
 <code>ctrl-alt-t</code>
@@ -39,7 +39,7 @@ Only works in developer mode.
 
 Sometimes it's not possible to open more than one shell. A workaround is to press ctrl-alt-t and open as many shells as you want before typing shell.
 
-##### Paste into the shell
+#### Paste into the shell
 <code>ctrl-shift-v</code>
 
 ### Install Ubuntu
