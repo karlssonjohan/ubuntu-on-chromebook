@@ -1,5 +1,5 @@
-Ubuntu 13.04 on chromebook
-==========================
+Ubuntu 13.04 and 13.10 on chromebook
+====================================
 How to install Ubuntu on a Samsung chromebook (SNOW PREMIER D-E 1700)
 
 ## Info about chromebook
