@@ -42,7 +42,7 @@ Sometimes it's not possible to open more than one shell. A workaround is to pres
 #### Paste into the shell
 <code>ctrl-shift-v</code>
 
-### Install Ubuntu
+## Install Ubuntu
 This will create a new partition on your internal disk and install ubuntu. You need to set developer mode first, see above, and then open a shell in the chrome browser, see above.
 
 #### Partition disk
@@ -113,7 +113,7 @@ At next reboot Chrome OS will start. If you want to switch back to Ubuntu, run:
 
 And then reboot.
 
-### Upgrade to Ubuntu 13.10
+## Upgrade to Ubuntu 13.10
 It does not seem to be possible to install 13.10 but you can upgrade from 13.04 to 13.10. However, it seems like it is only possible to upgrade from a freshly installed 13.04 by following the instructions above and then upgrade to 13.10. Also Gnome will not work; you will have to install Xfce. After installing 13.04 do this.
 
 #### Prepare for upgrade
@@ -138,7 +138,7 @@ Gnome will not work so use Xfce instead.
 <code>apt-get -y install xfce4</code>
 
 
-### Ubuntu tweaks
+## Ubuntu tweaks
 Some tweaks and fixes.
 
 #### Remove Gnash
@@ -193,7 +193,7 @@ Then add the line below to /etc/fstab
 
 <code>sudo apt-get install ubuntu-restricted-extras</code>
 
-### Fix Ubuntu console keyboard layout
+#### Fix Ubuntu console keyboard layout
 Update file /etc/default/keyboard
 
 Run commands:
@@ -204,7 +204,7 @@ Run commands:
 
 Might require reboot.
 
-### References
+## References
 http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook
 
 http://www.chromium.org/chromium-os/poking-around-your-chrome-os-device
@@ -217,5 +217,5 @@ https://gist.github.com/vvuk/4986933
 
 https://www.anavi.org/article/150/
 
-### Create an archive of this repo
+## Create an archive of this repo
 <code>git archive master | gzip > ubuntu-on-chromebook.tar.gz</code>
