@@ -6,7 +6,7 @@ How to install Ubuntu on a Samsung chromebook (SNOW PREMIER D-E 1700)
 Some miscellaneous info about chromebook. You need to know this to be able to install Ubuntu or recover your chromebook.
 
 #### Destroy Chrome OS system
-Run the below command to destroy your system. Wait a few minutes and then try to run some command (or reboot), the system will reboot. When it comes back up again it will complain about Chrome OS being missing or damaged.
+If you need to start from scratch run the below command to destroy your system. Wait a few minutes and then try to run some command (or reboot), the system will reboot. When it comes back up again it will complain about Chrome OS being missing or damaged.
 
 <code>sudo dd if=/dev/zero of=/dev/mmcblk0</code>
 
