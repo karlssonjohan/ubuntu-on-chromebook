@@ -16,7 +16,7 @@ If you destroy your system from within Ubuntu you will see the "OS verification 
 Create a Chrome OS image on a USB stick and insert it when you see the "Chrome OS is missing or damaged" screen. For more details see https://support.google.com/chromeos/answer/1080595?hl=en
 
 #### Set developer mode
-Login and then press:
+You will need to this to be able to open a shell. Login and then press:
 
 <code>esc-refresh-power</code>
 
